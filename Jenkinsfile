@@ -278,7 +278,7 @@ pipeline {
                 for /d /r %WORKSPACE% %%d in (__pycache__) do (
                     if exist "%%d" rmdir /s /q "%%d"
                 )
-                echo Cleanup complete.
+                exit /b 0
             """
         }
 
