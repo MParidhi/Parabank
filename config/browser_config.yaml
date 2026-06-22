@@ -1,0 +1,11 @@
+qa_ui:
+  baseurl_ui: "https://parabank.parasoft.com"
+  username: "john"
+  password: "demo"
+
+qa_api:
+  baseurl_api: "https://parabank.parasoft.com/parabank/services/bank/"
+  username: "john"
+  password: "demo"
+  account_id: "13344"
+
